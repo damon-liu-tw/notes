@@ -3,7 +3,7 @@
 2. 選擇匹配的 driver/CUDA 版本
 3. 用[官網](https://www.nvidia.com/Download/Find.aspx?lang=en-us) run_file 安裝 NVIDIA_Driver
 4. 用[官網](https://developer.nvidia.com/cuda-toolkit-archive) run_file 安裝 CUDA
-5. 依[官網](https://developer.nvidia.com/cudnn) 指示安裝 CuDNN
+5. 依[官網](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html) 指示安裝 CuDNN
 
 ## Reference
 - [CuDA / Nvidia-Driver Compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/index.html)
