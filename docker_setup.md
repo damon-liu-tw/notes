@@ -1,10 +1,12 @@
 #  Docker Setup
-- [Install Docker engine](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
-    > $ (sudo) docker ps
-- [To use docker w/o sudo](https://docs.docker.com/install/linux/linux-postinstall/) (refer to 1st section)
-- [Install Docker Composer](https://docs.docker.com/compose/install/)
-- [Install NVIDIA-Docker-V2](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
-- [使用nvidia-docker2](https://zhuanlan.zhihu.com/p/37519492) set docker runtime=nvidia
+- [NVIDIA-Docker Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+- (以下是舊方法)
+    - [Install Docker engine](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+        > $ (sudo) docker ps
+    - [To use docker w/o sudo](https://docs.docker.com/install/linux/linux-postinstall/) (refer to 1st section)
+    - [Install Docker Composer](https://docs.docker.com/compose/install/)
+    - [Install NVIDIA-Docker-V2](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
+    - [使用nvidia-docker2](https://zhuanlan.zhihu.com/p/37519492) set docker runtime=nvidia
 
 ## Basic Syntax
 - List all containers
