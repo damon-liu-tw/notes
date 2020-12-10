@@ -1,6 +1,7 @@
 # VIM
 
 ## 基本指令
+- [stackoverflow](https://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978)
 - [鳥哥](http://linux.vbird.org/linux_basic/0310vi.php)
 - [vixual](http://www.vixual.net/blog/archives/234) 最後有些 vimrc 配置
 

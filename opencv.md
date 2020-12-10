@@ -1,0 +1,3 @@
+- xhost +local:docker
+- xhost +root
+- DISPLAY=":0"

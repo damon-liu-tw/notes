@@ -39,3 +39,23 @@
 >$ export CUDA_HOME=/usr/local/cuda
 
 
+# 安裝 DCNv2
+用原始 [repo](https://github.com/CharlesShang/DCNv2) 會 build failed
+- 參考 [csdn](https://blog.csdn.net/lol_IP/article/details/106802749)
+- clone [DCNv2_latest](https://github.com/jinfagang/DCNv2_latest) 並更改權限
+  ```shell
+  git clone https://github.com/jinfagang/DCNv2_latest.git
+  sudo chmod -R 777 DCNv2_latest
+  cd DCNv2_latest
+  ```
+- 修改 make.sh 讓 DCNv2 安裝在 virtualenv
+  ```
+  # make.sh
+  sudo rm *.so
+  sudo rm -r build/
+  python3 setup.py build develop
+  ```
+- 開始編譯
+  ```shell
+  ./make.sh
+  ```

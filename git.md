@@ -4,6 +4,16 @@
     $ ssh -T git@github.com
     $ ssh -T git@bitbucket.org
     ```
+# [刪除Git中已經被commit的檔案](https://magiclen.org/git-remove-commited-files/)
+- 佔用空間
+  - 全 Repo
+	```
+	git count-objects -vH
+	```
+  - 依各別檔案大小
+	```
+	git rev-list --objects --all | git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' | sed -n 's/^blob //p' | sort --numeric-sort --key=2 | cut -c 1-12,41- | $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
+	```
 
 # print markdown
 ```
